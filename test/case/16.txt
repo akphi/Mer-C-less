@@ -1,0 +1,8 @@
+# CASE 16: ERROR - ridiculously long lexeme
+#ThisCommentOneIsLongButStillShorterThanTheCurrentLimitForLexemeLengthOf100SoItWillBeOkayAsItWillGetTrimmedBeforeErrorCanBeSung
+program ThisOneIsLongerThanTheCurrentLimitForLexemeLengthWhichIs100SoItWillBeYelledAtByTheLexerSinceItHas101c 
+begin 
+        if ( ThisOneIsLongButStillShorterThanTheCurrentLimitForLexemeLengthOf100SoItWillBeOkayAsItsLengthIs100cha <= b ) then a := -2 + 43 else b:= 56 * a
+end
+
+# comments anywhere are fine

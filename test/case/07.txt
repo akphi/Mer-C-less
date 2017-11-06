@@ -1,0 +1,5 @@
+# CASE 07: ERROR - Missing 'begin' keyword
+program Abc123def  
+if ( a <= b ) then a := -2 + 43 else b:= 56 * a ; 
+end
+

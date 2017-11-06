@@ -1,0 +1,25 @@
+22
+50
+50
+COMMA ,
+SEMICOLON ;
+LEFT_PARENTHESIS \(
+RIGHT_PARENTHESIS \)
+BEGIN \bbegin\b
+END \bend\b
+IF \bif\b
+THEN \bthen\b
+ELSE \belse\b
+WHILE \bwhile\b
+DO \bdo\b
+READ \bread\b
+WRITE \bwrite\b
+PROGRAM \bprogram\b
+CONSTANT \b[0-9]+
+PROGNAME_VARIABLE \b[A-Z][A-Za-z0-9]*
+VARIABLE \b[A-Za-z][A-Za-z0-9]*
+ASSIGNING_OPERATOR :=
+RELATIONAL_OPERATOR (=|<>|<=|>=|<|>)
+MULTIPLYING_OPERATOR [*/]
+ADDING_OPERATOR [+-]
+COMMENT \#.*

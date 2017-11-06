@@ -1,0 +1,7 @@
+# CASE 08: Missing end
+program Abc123def begin
+if ( a <= b ) then a := -2 + 43 else b:= 56 * a ; 
+
+# end
+# nothing to see here
+

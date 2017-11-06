@@ -1,0 +1,10 @@
+# CASE 09: ERROR - code beyond the end of the outermost compound statement, WARNING - tab usage
+program Abc123def begin
+	f := 17;
+	g := f / 5.2 end
+
+	h := 6
+end
+
+
+

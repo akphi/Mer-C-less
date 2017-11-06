@@ -1,0 +1,1 @@
+ERROR - detect unexpected EOF [7:2]

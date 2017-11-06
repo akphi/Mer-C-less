@@ -1,0 +1,2 @@
+ERROR - lexeme is too long [3:9-110]
+ERROR - expect <progname> but saw 'begin' [4:1-6]

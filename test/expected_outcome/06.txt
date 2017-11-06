@@ -1,0 +1,6 @@
+ERROR - expect <progname> but saw 'aBc123' [2:9-15]
+ERROR - expect 'begin' but saw 'aBc123' [2:9-15]
+ERROR - expect ':=' but saw 'begin' [3:1-6]
+ERROR - expect <variable>, <constant>, or ( <expression> ) but saw 'begin' [3:1-6]
+ERROR - expect end but saw 'begin' [3:1-6]
+ERROR - detect non-empty content after end of program [3:1]

@@ -1,0 +1,6 @@
+# CASE 10: SUCCESS - single statement
+program ABC123
+	begin
+		Pi := 5
+	end
+

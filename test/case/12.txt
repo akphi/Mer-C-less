@@ -1,0 +1,8 @@
+# CASE 12: SUCCESS - nested compound statements
+program Aba begin
+	read (a, a1, B, B1); write (-15 + 20, 3 - 49); Pi := (pai) ;
+	if 1 then begin f := t + 23; e := f - 5 end 
+	else begin 
+			f := 0 ; e := -1 
+	end
+end

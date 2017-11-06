@@ -1,0 +1,5 @@
+# CASE 04: ERROR - missing 'program' keyword
+ABc123def 
+begin 
+if ( a <= b ) then a := -2 + 43 else b:= 56 * a 
+end

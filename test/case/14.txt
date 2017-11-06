@@ -1,0 +1,21 @@
+# CASE 14: ERROR - missing ';' after non-final statement in compound statement block, WARNING - tab usage
+program Abc123def 
+begin 
+	if ( a <= b ) then a := -2 + 43 else b:= 56 * a;
+	if ( a < b ) then begin a := -2 + 43; b := 0 end else b:= 56 * a ;
+	if ( a > b ) then begin a := -2 + 43 ; b := -1 ; c := a + b end else begin b:= 56 * a; c := -1 end;
+	# Next if should always be true
+	if +12 then a := -2 - 43 else b:= 56 / a ;
+
+	write ( abc  , AARP , -2 - 43, 56 / a); # Write the data
+	# if then x else y
+
+	begin read ( a,b,c,abc,AA,A1,b1,b54r,asdf3,Ab12bA,as ) ;  if ( a <= b ) then a := -2 + 43  end
+	while 1 do 
+		begin 
+			read ( a,b,c,abc,AA,A1,b1,b54r,asdf3,Ab12bA,as ) ;  
+			if ( a <= b ) then a := -2 + 43  
+		end
+end
+
+# comments anywhere are fine

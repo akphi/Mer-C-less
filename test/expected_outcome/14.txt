@@ -1,0 +1,3 @@
+ERROR - expect end but saw 'while' [14:9-14]
+ERROR - detect non-empty content after end of program [14:9]
+WARNING - detect usage of tab(s), column location might be off since a tab is currently counted as 8 space(s) (check TAB_SIZE option in setting.h)

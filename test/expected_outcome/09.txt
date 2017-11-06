@@ -1,0 +1,4 @@
+ERROR - cannot identify token [4:19-20]
+ERROR - expect end but saw '2' [4:20-21]
+ERROR - detect non-empty content after end of program [4:20]
+WARNING - detect usage of tab(s), column location might be off since a tab is currently counted as 8 space(s) (check TAB_SIZE option in setting.h)

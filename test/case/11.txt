@@ -1,0 +1,6 @@
+# CASE 11: SUCCESS - several statements
+program Abc456Wxyz begin
+	read (a, a1, B, B1);
+	write (-15 + 20, 3 - 49 < 0);
+	Pi := (pai)
+end

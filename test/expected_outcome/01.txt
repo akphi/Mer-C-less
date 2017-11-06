@@ -1,0 +1,2 @@
+ERROR - expect <variable>, 'read', 'write', 'begin', 'if', or 'while' but saw 'end' [3:9-12]
+WARNING - detect usage of tab(s), column location might be off since a tab is currently counted as 8 space(s) (check TAB_SIZE option in setting.h)

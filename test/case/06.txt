@@ -1,0 +1,5 @@
+# CASE 06: ERROR - illegal program name
+program aBc123
+begin 
+	x := 4
+end
